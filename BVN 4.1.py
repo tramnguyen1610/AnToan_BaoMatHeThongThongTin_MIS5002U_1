@@ -14,11 +14,12 @@ def caesar_decrypt(text, k):
 
 
 k = 10
-plaintext = "Tram"
+plaintext = "Nguyen Ngoc Tram"
 ciphertext = caesar_encrypt(plaintext, k)
 
 print("k =", k)
 print("Plaintext:", plaintext)
 print("Ciphertext:", ciphertext)
 print("Decrypt:", caesar_decrypt(ciphertext, k))
+
 
